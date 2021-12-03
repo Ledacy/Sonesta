@@ -74,7 +74,6 @@ import { FooterWebComponent } from './Web/footer.component';
 import { HeaderWebComponent } from './Web/header.component';
 import { HomeWebComponent } from './Web/home.component';
 import { NosotrosWebComponent } from './Web/nosotros.component';
-import { CebaWebComponent } from './Web/ceba.component';
 import { ContactoWebComponent } from './Web/contacto.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
@@ -83,7 +82,7 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
   declarations: [
     AppComponent, HeaderPagesComponent, HeaderComponent, HabitacionesComponent, TotalSeleccionHabPipe, TotalHabitacionesPipe, TotalHuepedesHabPipe, MonedaFormatoPipe,
     CheckOutComponent, ProcessDialogComponent, DetalleOrdenComponent, DisponibilidadDialogComponent, FooterWebComponent, HeaderWebComponent, HomeWebComponent, NosotrosWebComponent,
-    CebaWebComponent, ContactoWebComponent,
+    ContactoWebComponent,
   ],
   imports: [
     BrowserModule,

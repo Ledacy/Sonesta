@@ -1,14 +1,21 @@
 @font-face {
-    font-family: "titulo";
-    src: url("../../assets/fonts/titulo.otf");
-    font-style: normal;
-    font-weight: 300;
-  }
-  .titulo{
-    font-family: titulo !important;
-  }
-  @font-face {
-    font-family: "text";
-    src: url("../../assets/fonts/texto-1.otf");
-    font-style: normal;
-  }
+  font-family: "titulo";
+  src: url("../../assets/fonts/titulo.otf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+.titulo {
+  font-family: titulo !important;
+}
+
+@font-face {
+  font-family: "text";
+  src: url("../../assets/fonts/texto-1.otf");
+  font-style: normal;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
