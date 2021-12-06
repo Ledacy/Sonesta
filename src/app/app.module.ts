@@ -73,6 +73,7 @@ import { StoreFirstGuard } from './storeFirst.guard';
 import { FooterWebComponent } from './Web/footer.component';
 import { HeaderWebComponent } from './Web/header.component';
 import { HomeWebComponent } from './Web/home.component';
+import { Hotel1WebComponent } from './Web/hotel1.component';
 import { NosotrosWebComponent } from './Web/nosotros.component';
 import { ContactoWebComponent } from './Web/contacto.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -80,7 +81,7 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderPagesComponent, HeaderComponent, HabitacionesComponent, TotalSeleccionHabPipe, TotalHabitacionesPipe, TotalHuepedesHabPipe, MonedaFormatoPipe,
+    AppComponent, HeaderPagesComponent, HeaderComponent, HabitacionesComponent, TotalSeleccionHabPipe, TotalHabitacionesPipe, TotalHuepedesHabPipe, MonedaFormatoPipe, Hotel1WebComponent,
     CheckOutComponent, ProcessDialogComponent, DetalleOrdenComponent, DisponibilidadDialogComponent, FooterWebComponent, HeaderWebComponent, HomeWebComponent, NosotrosWebComponent,
     ContactoWebComponent,
   ],
@@ -108,7 +109,8 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
       }
     }),
     RouterModule.forRoot([
-      { path: "home", component: HomeWebComponent },   
+      { path: "home", component: HomeWebComponent }, 
+      { path: "hotel1", component: Hotel1WebComponent }, 
       { path: "nosotros", component: NosotrosWebComponent },
       { path: "contacto", component: ContactoWebComponent },
       { path: "booking/:checkIn/:checkOut/:nroPersonas", component: HabitacionesComponent }, 
