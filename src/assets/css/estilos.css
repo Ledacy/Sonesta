@@ -19,3 +19,22 @@
   text-align: justify;
   text-justify: inter-word;
 }
+/* colores de textos */
+.text-marron{
+  color: #512206 !important;
+}
+/* fin de colores de textos */
+/* inicio de colores de fondo */
+.bg-marron{
+background-color: #512206 !important;
+background-size: cover;
+}
+.bg-blanco{
+  background-color: #fffbd688;
+  background-size: cover;
+}
+.bg-negro{
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.534);
+}
+/* fin de colores de fondo */

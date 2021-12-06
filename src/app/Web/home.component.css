@@ -5,6 +5,27 @@
 .h-map{
   height: 450px;
 }
+.carrousel-navbar{
+  margin-top: -9%;
+  z-index: -1;
+}
+/* estilos habitaciones */
+.ancho-roon{
+  width: 85%;
+}
+/* final de estilos habitaciones */
+/* estilos de fondos */
+.fondo-servicios {
+  background-image: url("../../assets/image/Recursos/fondo-1.jpg");
+  background-color: #cccccc;
+  height: auto;
+  padding: 10% 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* fin de estilos de fondo */
 /* CSS */
 .button-modal {
   background-color: #615c5e;

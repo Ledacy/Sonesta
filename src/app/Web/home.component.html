@@ -1,5 +1,5 @@
 <header-web (dataEvent)='setLanguage($event)'></header-web>
-<section class="w-100 px-0">
+<section class="w-100 px-0 carrousel-navbar">
   <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active maximo-1">
@@ -22,15 +22,61 @@
     </button>
   </div>
   <div class="m-5">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 p-5 text-center w-100">
+          <h1 class="fw-bold">Nuestros Hoteles</h1>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="../../assets/image/Hoteles/hotel-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <!-- <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="../../assets/image/Hoteles/hotel-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <!-- <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="../../assets/image/Hoteles/hotel-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <!-- <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row">
       <div class="col-12 p-5 text-center w-100">
         <h1 class="fw-bold">HABITACIONES</h1>
       </div>
       <div class="container-fluid">
-        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
+        <div class="col-12">
           <div class="row">
             <div class="col-lg-4 m-3 col-md-6 col-12 mx-auto text-center">
-              <div class="card border-0" style="width: 85%;">
+              <div class="card border-0 ancho-roon">
                 <img src="https://picsum.photos/450/300?image=355"
                   class="card-img-top img-fluid border border-secondary rounded-0" alt="...">
                 <div class="card-body shadow">
@@ -57,7 +103,7 @@
               </div>
             </div>
             <div class="col-lg-4 m-3 col-md-6 col-12 mx-auto text-center">
-              <div class="card border-0" style="width: 85%;">
+              <div class="card border-0 ancho-roon">
                 <img src="https://picsum.photos/450/300?image=355"
                   class="card-img-top img-fluid border border-secondary rounded-0" alt="...">
                 <div class="card-body shadow">
@@ -84,7 +130,7 @@
               </div>
             </div>
             <div class="col-lg-4 m-3 col-md-6 col-12 mx-auto text-center">
-              <div class="card border-0" style="width: 85%;">
+              <div class="card border-0 ancho-roon">
                 <img src="https://picsum.photos/450/300?image=355"
                   class="card-img-top img-fluid border border-secondary rounded-0" alt="...">
                 <div class="card-body shadow">
@@ -262,95 +308,56 @@
       </div>
     </div>
   </div>
-  <div class="container px-5">
-    <div class="row d-flex align-items-center">
-      <div class="col-4 p-5 text-center">
-        <h2>Lorem, ipsum.</h2>
-      </div>
-      <div class="col-8">
-        <div class="row">
-          <div class="col-3 p-3 text-center lh-sm">
-            <i class="fas fa-bed fs-1 mb-1"></i>
-            <p class="fw-bold mt-0"><small>Servicio-1</small></p>
+  <div class="px-5 fondo-servicios">
+    <div class="container bg-negro py-5">
+      <div class="row d-flex align-items-center">
+        <div class="col-4 p-5 text-center text-white lh-sm">
+          <h2 class="mb-0">Lorem, ipsum.</h2>
+          <p class="mt-1">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-8">
+          <div class="row text-white">
+            <div class="col-3 p-3 text-center lh-sm">
+              <i class="fas fa-bed fs-1 mb-1"></i>
+              <p class="fw-bold mt-0"><small>Servicio-1</small></p>
+            </div>
+            <div class="col-3 p-3 text-center lh-sm">
+              <i class="fas fa-bed fs-1 mb-1"></i>
+              <p class="fw-bold mt-0"><small>Servicio-1</small></p>
+            </div>
+            <div class="col-3 p-3 text-center lh-sm">
+              <i class="fas fa-bed fs-1 mb-1"></i>
+              <p class="fw-bold mt-0"><small>Servicio-1</small></p>
+            </div>
+            <div class="col-3 p-3 text-center lh-sm">
+              <i class="fas fa-bed fs-1 mb-1"></i>
+              <p class="fw-bold mt-0"><small>Servicio-1</small></p>
+            </div>
+            <div class="col-3 p-3 text-center lh-sm">
+              <i class="fas fa-bed fs-1 mb-1"></i>
+              <p class="fw-bold mt-0"><small>Servicio-1</small></p>
+            </div>
+            <div class="col-3 p-3 text-center lh-sm">
+              <i class="fas fa-bed fs-1 mb-1"></i>
+              <p class="fw-bold mt-0"><small>Servicio-1</small></p>
+            </div>
+            <div class="col-3 p-3 text-center lh-sm">
+              <i class="fas fa-bed fs-1 mb-1"></i>
+              <p class="fw-bold mt-0"><small>Servicio-1</small></p>
+            </div>
+            <div class="col-3 p-3 text-center lh-sm">
+              <i class="fas fa-bed fs-1 mb-1"></i>
+              <p class="fw-bold mt-0"><small>Servicio-1</small></p>
+            </div>
+  
           </div>
-          <div class="col-3 p-3 text-center lh-sm">
-            <i class="fas fa-bed fs-1 mb-1"></i>
-            <p class="fw-bold mt-0"><small>Servicio-1</small></p>
-          </div>
-          <div class="col-3 p-3 text-center lh-sm">
-            <i class="fas fa-bed fs-1 mb-1"></i>
-            <p class="fw-bold mt-0"><small>Servicio-1</small></p>
-          </div>
-          <div class="col-3 p-3 text-center lh-sm">
-            <i class="fas fa-bed fs-1 mb-1"></i>
-            <p class="fw-bold mt-0"><small>Servicio-1</small></p>
-          </div>
-          <div class="col-3 p-3 text-center lh-sm">
-            <i class="fas fa-bed fs-1 mb-1"></i>
-            <p class="fw-bold mt-0"><small>Servicio-1</small></p>
-          </div>
-          <div class="col-3 p-3 text-center lh-sm">
-            <i class="fas fa-bed fs-1 mb-1"></i>
-            <p class="fw-bold mt-0"><small>Servicio-1</small></p>
-          </div>
-          <div class="col-3 p-3 text-center lh-sm">
-            <i class="fas fa-bed fs-1 mb-1"></i>
-            <p class="fw-bold mt-0"><small>Servicio-1</small></p>
-          </div>
-          <div class="col-3 p-3 text-center lh-sm">
-            <i class="fas fa-bed fs-1 mb-1"></i>
-            <p class="fw-bold mt-0"><small>Servicio-1</small></p>
-          </div>
-
         </div>
       </div>
     </div>
+  
   </div>
 </section>
 <section class="container-fluid">
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-4">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="row my-5 d-flex align-items-center">
     <div class="col-6">
       <img src="https://picsum.photos/450/300?image=355" class="img-fluid w-100" alt="">
@@ -414,7 +421,7 @@
       </div>
     </div>
   </div>
-  <div class="row d-flex align-items-center px-5 py-4 bg-warning">
+  <div class="row d-flex align-items-center px-5 py-4 bg-marron mt-5">
     <div class="col-4 bg-dark">
       <div class="pt-4 pb-2 px-3 text-center text-white">
         <h1 class="mb-1 bg-white text-dark" style="margin: 5% -12%;">Find us</h1>
@@ -433,7 +440,7 @@
     </div>
   </div>
   <div class="mx-0 py-3">
-    <div class="container bg-warning contact-form">
+    <div class="container contact-form">
       <div class="contact-image">
         <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
       </div>
