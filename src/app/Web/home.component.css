@@ -28,7 +28,7 @@
 /* fin de estilos de fondo */
 /* estilos carrousel galeria */
 .carousel {
-  background: #EEE;
+  background: #fffbd688;
 }
 
 .carousel-image {
@@ -82,7 +82,7 @@
   background: #fff;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 70%;
+  width: auto;
 }
 .contact-form .form-control{
   border-radius:1rem;
@@ -91,31 +91,39 @@
   text-align: center;
 }
 .contact-image img{
-  border-radius: 6rem;
-  width: 11%;
-  margin-top: -3%;
-  transform: rotate(29deg);
+  width: 15%;
+  margin-top: 0;
+  /* transform: rotate(29deg); */
 }
 .contact-form form{
-  padding: 14%;
+  padding: 10%;
 }
 .contact-form form .row{
-  margin-bottom: -7%;
+  margin-bottom: 0;
+}
+.formulario{
+  background-color: #fcf3ea77;
+  border-radius: 0 !important;
+  border: none;
+}
+.formulario::placeholder{
+  color: #512206;
+  font-weight: 700;
 }
 .contact-form h3{
-  margin-bottom: 8%;
-  margin-top: -10%;
+  margin-bottom: 2%;
+  margin-top: -12%;
   text-align: center;
   color: #0062cc;
 }
 .contact-form .btnContact {
   width: 80%;
   border: none;
-  border-radius: 1rem;
-  padding: 2%;
-  background: #dc3545;
+  border-radius: none;
+  padding: 2% 0.5%;
+  background: #694231;
   font-weight: 600;
-  color: #fff;
+  color: #ffff;
   cursor: pointer;
 }
 .btnContactSubmit
@@ -124,7 +132,7 @@
   border-radius: 1rem;
   padding: 1.5%;
   color: #fff;
-  background-color: #0062cc;
+  background-color: #512206;
   border: none;
   cursor: pointer;
 }
