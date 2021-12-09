@@ -53,3 +53,11 @@
   max-height: 100%;
 }
 /* final de estilos carrousel galeria */
+/* estilos del mapa */
+.map{
+  width: 100%;
+  height: 450px;
+  border:0;
+  border: #FCF3EA 5px ridge;
+}
+/* final del estilo del mapa */
