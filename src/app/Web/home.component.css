@@ -1,3 +1,14 @@
+.hotel{
+  font-size: 13px;
+  font-weight: bold;
+}
+.sombra-1{
+  margin: 5px 25%;
+  box-shadow: rgba(17, 17, 26, 0.205) 0px 1px 0px, rgba(17, 17, 26, 0.603) 0px 8px 24px, rgba(17, 17, 26, 0.514) 0px 16px 48px;
+}
+.sombra-titulo{
+  text-shadow: 0px 0px 6px #512206b3;
+}
 .maximo-1{
   max-height: auto;
   width: 100%;
@@ -14,10 +25,74 @@
   width: 85%;
 }
 /* final de estilos habitaciones */
+
+/* estilo del borde de conocenos */
+.box {
+  /* top: 50%;
+  left: 50%; */
+  transform: translate3d(12%, 0, 0);
+  background-color: #fcf3ea77;
+  width: 100%;
+  max-width: 600px;
+  padding: 5px;
+  border: 2px solid #512206;
+}
+.box:before, .box:after {
+  content: "•";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  color: #512206;
+  border: 2px solid #512206;
+  line-height: 12px;
+  top: 5px;
+  text-align: center;
+}
+.box:before {
+  left: 5px;
+}
+.box:after {
+  right: 5px;
+}
+.box .box-inner {
+  position: relative;
+  border: 2px solid #512206;
+  padding: 40px;
+}
+.box .box-inner:before, .box .box-inner:after {
+  content: "•";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  color: #512206;
+  border: 2px solid #512206;
+  line-height: 12px;
+  bottom: -2px;
+  text-align: center;
+}
+.box .box-inner:before {
+  left: -2px;
+}
+.box .box-inner:after {
+  right: -2px;
+}/* fin de los estilos del borde conocenos */
+
 /* estilos de fondos */
 .fondo-servicios {
   background-image: url("../../assets/image/Recursos/fondo-1.jpg");
   background-color: #cccccc;
+  height: auto;
+  padding: 10% 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.fondo-valores {
+  background-image: url("../../assets/image/Recursos/fondo-1.png");
+  background-color: white;
   height: auto;
   padding: 10% 0%;
   background-position: center;
@@ -161,15 +236,15 @@
 }
 
 .container-1 .card-1:nth-child(1) .icon {
-  background: #9F8FAC;
+  background: #DAA520;
 }
 
 .container-1 .card-1:nth-child(2) .icon {
-  background: #512206;
+  background: #894932;
 }
 
 .container-1 .card-1:nth-child(3) .icon {
-  background: #4aada9;
+  background: #A52A2A;
 }
 
 
@@ -190,7 +265,7 @@
   transform: translate(-50%, -50%);
   font-size: 80px;
   transition: 0.7s;
-  color: #fcf3ea;
+  color: white;
 }
 
 .container-1 .card-1 .face {
