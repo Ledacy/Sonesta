@@ -14,7 +14,9 @@
   src: url("../../assets/fonts/texto-1.otf");
   font-style: normal;
 }
-
+.texto{
+  font-family: text !important;
+}
 .text-justify {
   text-align: justify;
   text-justify: inter-word;
