@@ -54,10 +54,10 @@ background-size: cover;
 /* Inicio Galeria */
 .galeria{
   height: 100%;
-  padding: 15% 2%;
+  padding: 11% 1%;
   overflow: hidden;
-  background-color: #222;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.025) 10%, transparent 0), linear-gradient(#222, #000);
+  /* background-color: #FCF3EA;
+  background-image: linear-gradient(to right, #b3501765 10%, transparent 0), linear-gradient(#af4c127a, #ad4a10ea); */
   background-size: 0.75em 100%, 100% 100%;
   background-attachment: fixed;
   display: flex;
@@ -84,7 +84,7 @@ background-size: cover;
   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
           clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   transform: scale(1);
-  transition: all 0.25s;
+  transition: all 1s;
 }
 .wrapper IMG:nth-child(7n+1){
   grid-column: 2/span 2;
