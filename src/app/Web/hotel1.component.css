@@ -19,6 +19,42 @@
   }
 }
 /* final de estilos habitaciones */
+/* detalles */
+.sonbra-2{
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.686);
+  /* text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000; */
+  color: white;
+}
+.button-modal {
+  background-color: #615c5e;
+  background-image: linear-gradient(to bottom right, #929080, #7c6464, #3a3135);
+  border: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  /* font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.75rem; /* 28px */
+  padding: 22% 18%;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-modal:hover {
+  box-shadow: none;
+}
+
+@media (min-width: 1024px) {
+  .button-modal {
+    font-size: 1.5rem; /* 24px */
+    padding: 1rem 1.5rem;
+    line-height: 2rem; /* 32px */
+  }
+}
+/* fin detalles */
 /* estilos de fondos */
 .fondo-servicios {
   background-image: url("../../assets/image/Recursos/fondo-1.jpg");

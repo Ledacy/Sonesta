@@ -20,65 +20,6 @@
   margin-top: -9%;
   z-index: -1;
 }
-/* estilos habitaciones */
-.ancho-roon{
-  width: 85%;
-}
-/* final de estilos habitaciones */
-
-/* estilo del borde de conocenos */
-.box {
-  /* top: 50%;
-  left: 50%; */
-  transform: translate3d(12%, 0, 0);
-  background-color: #fcf3ea77;
-  width: 100%;
-  max-width: 600px;
-  padding: 5px;
-  border: 2px solid #512206;
-}
-.box:before, .box:after {
-  content: "•";
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  font-size: 14px;
-  color: #512206;
-  border: 2px solid #512206;
-  line-height: 12px;
-  top: 5px;
-  text-align: center;
-}
-.box:before {
-  left: 5px;
-}
-.box:after {
-  right: 5px;
-}
-.box .box-inner {
-  position: relative;
-  border: 2px solid #512206;
-  padding: 40px;
-}
-.box .box-inner:before, .box .box-inner:after {
-  content: "•";
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  font-size: 14px;
-  color: #512206;
-  border: 2px solid #512206;
-  line-height: 12px;
-  bottom: -2px;
-  text-align: center;
-}
-.box .box-inner:before {
-  left: -2px;
-}
-.box .box-inner:after {
-  right: -2px;
-}/* fin de los estilos del borde conocenos */
-
 /* estilos de fondos */
 .fondo-servicios {
   background-image: url("../../assets/image/Recursos/fondo-1.jpg");
@@ -124,35 +65,6 @@
 }
 /* final de estilos carrousel galeria */
 /* CSS */
-.button-modal {
-  background-color: #615c5e;
-  background-image: linear-gradient(to bottom right, #929080, #7c6464, #3a3135);
-  border: 0;
-  border-radius: 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  /* font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.75rem; /* 28px */
-  padding: 22% 18%;
-  text-align: center;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-.button-modal:hover {
-  box-shadow: none;
-}
-
-@media (min-width: 1024px) {
-  .button-modal {
-    font-size: 1.5rem; /* 24px */
-    padding: 1rem 1.5rem;
-    line-height: 2rem; /* 32px */
-  }
-}
 .contact-form{
   background: #fff;
   margin-top: 5%;
