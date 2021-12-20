@@ -4,11 +4,9 @@
   font-style: normal;
   font-weight: 300;
 }
-
 .titulo {
   font-family: titulo !important;
 }
-
 @font-face {
   font-family: "text";
   src: url("../../assets/fonts/texto-1.otf");

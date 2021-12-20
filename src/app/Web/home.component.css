@@ -169,7 +169,6 @@
   transition: 0.7s;
   color: #fff;
 }
-
 .ico {
   position: absolute;
   top: 50%;
@@ -179,13 +178,11 @@
   transition: 0.7s;
   color: white;
 }
-
 .container-1 .card-1 .face {
   width: 300px;
   height: 200px;
   transition: 0.5s;
 }
-
 .container-1 .card-1 .face.face1 {
   position: relative;
   background: #333;
@@ -195,25 +192,20 @@
   z-index: 1;
   transform: translateY(100px);
 }
-
 .container-1 .card-1:hover .face.face1{
   background: #ff0057;
   transform: translateY(0px);
 }
-
 .container-1 .card-1 .face.face1 .content {
   opacity: 1;
   transition: 0.5s;
 }
-
 .container-1 .card-1:hover .face.face1 .content {
   opacity: 1;
 }
-
 .container-1 .card-1 .face.face1 .content i{
   max-width: 100px;
 }
-
 .container-1 .card-1 .face.face2 {
   position: relative;
   background: #fff;
@@ -225,18 +217,15 @@
   box-shadow: 0 20px 50px rgba(0,0,0,0.8);
   transform: translateY(-100px);
 }
-
 .container-1 .card-1:hover .face.face2{
   transform: translateY(0);
 }
-
 .container-1 .card-1 .face.face2 .content p {
   margin: 0;
   padding: 0;
   text-align: center;
   color: #414141;
 }
-
 .container-1 .card-1 .face.face2 .content h3 {
   margin: 0 0 10px 0;
   padding: 0;
@@ -245,7 +234,6 @@
   text-align: center;
   color: #414141;
 } 
-
 .container-1 a {
   text-decoration: none;
   color: #414141;

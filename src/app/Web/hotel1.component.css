@@ -47,11 +47,23 @@
   box-shadow: none;
 }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1025px) and (max-width: 1380px){
   .button-modal {
     font-size: 1.5rem; /* 24px */
     padding: 1rem 1.5rem;
     line-height: 2rem; /* 32px */
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .button-modal {
+    font-size: 1.5rem; /* 24px */
+    padding: 1rem 1.5rem;
+    line-height: 2rem; /* 32px */
+  }
+}
+@media only screen and (min-width: 310px) and (max-width: 768px) {
+  .margen-c1{
+    margin-top: 70% !important;
   }
 }
 /* fin detalles */
