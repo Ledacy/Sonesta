@@ -2,11 +2,11 @@ import { Component, ElementRef, OnInit } from "@angular/core";
 import { TranslateService } from "@ngx-translate/core";
 
 @Component({
-    selector: "hotel1-web",
-    templateUrl: "./hotel1.component.html",
-    styleUrls: ["./hotel1.component.css"]
+    selector: "hotel2-web",
+    templateUrl: "./hotel2.component.html",
+    styleUrls: ["./hotel2.component.css"]
 })
-export class Hotel1WebComponent implements OnInit{
+export class Hotel2WebComponent implements OnInit{
 
     constructor(private translate: TranslateService){
 
