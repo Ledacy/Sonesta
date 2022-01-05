@@ -1,6 +1,6 @@
 @font-face {
   font-family: "titulo";
-  src: url("../../assets/fonts/titulo.otf");
+  src: url("../../assets/fonts/Titulo-1.otf");
   font-style: normal;
   font-weight: 300;
 }
@@ -23,14 +23,22 @@
 .text-marron{
   color: #512206 !important;
 }
+.text-amarillo{
+  color: #F0A608 !important
+}
 .text-humo{
   color: #FCF3EA !important;
 }
 /* fin de colores de textos */
-
+.estrella-1{
+  color: #ffb700;
+  font-size: 13px;
+  /* text-shadow: 0 0 0.2em #fff, 0 0 0.2em #fff,
+		0 0 0.2em #fff */
+}
 /* inicio de colores de fondo */
 .bg-marron{
-background-color: #512206 !important;
+background-color: #44312B !important;
 background-size: cover;
 }
 .bg-marron2{
@@ -42,7 +50,7 @@ background-size: cover;
   background-size: cover;
 }
 .bg-humo{
-  background-color: #FCF3EA;
+  background-color: rgb(252, 242, 233);
   background-size: cover;
 }
 .bg-humo2{
