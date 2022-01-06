@@ -44,18 +44,16 @@
 /* fin de estilos de fondo */
 /* estilos carrousel galeria */
 .carousel {
-  background: #fffbd688;
+  background: #fcf3ea77;
 }
 
 .carousel-image {
   display: block;
   height: 300px;
   /* set min-width, allow images to set cell width */
-  min-width: 150px;
   max-width: 100%;
   margin-right: 10px;
   /* vertically center */
-  top: 50%;
   transform: translateY(-50%)
 }
 
