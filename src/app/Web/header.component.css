@@ -2,3 +2,26 @@
     border-bottom: #512206 5px solid;
     margin-top: -15px !important;
 }
+#mainMenu div> ul > li > a {
+    color: rgb(81, 34, 6);
+    font-weight: bold;
+    transition: 0.3s;
+    }
+#mainMenu div> ul > li > a:hover {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(69, 49, 43, 0.856);
+    transition: 0.3s;
+    }
+    /* .rojo >a:hover{
+      color: #faa831 !important;
+      font-weight: bold;
+      background-color: rgb(255, 255, 255);
+      transition: 0.3s;
+    }
+    .rojo >i:active{
+      color: #faa831 !important;
+      font-weight: bold;
+      background-color: white;
+      padding: 2px;
+    } */
