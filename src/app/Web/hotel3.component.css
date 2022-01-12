@@ -20,6 +20,10 @@
 }
 /* final de estilos habitaciones */
 /* detalles */
+.servicios{
+  font-size: 16px !important;
+  font-weight: lighter !important;
+}
 .sonbra-2{
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.686);
   /* text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000; */
@@ -49,11 +53,17 @@
 .button-modal:hover {
   box-shadow: none;
 }
-
-@media only screen and (min-width: 1025px) and (max-width: 1380px){
+@media only screen and (min-width: 1380px) and (max-width: 1980px){
   .button-modal {
     font-size: 1.5rem; /* 24px */
     padding: 1rem 1.5rem;
+    line-height: 2rem; /* 32px */
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1380px){
+  .button-modal {
+    font-size: 1.5rem; /* 24px */
+    padding: 0.8rem 0.3rem;
     line-height: 2rem; /* 32px */
   }
 }
@@ -94,7 +104,7 @@
 /* fin de estilos de fondo */
 /* estilos carrousel galeria */
 .carousel {
-  background: #EEE;
+  background: #fcf3ea77;
 }
 
 .carousel-image {
@@ -105,7 +115,6 @@
   max-width: 100%;
   margin-right: 10px;
   /* vertically center */
-  top: 50%;
   transform: translateY(-50%)
 }
 
