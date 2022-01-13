@@ -78,6 +78,7 @@ import { Hotel2WebComponent } from './Web/hotel2.component';
 import { Hotel3WebComponent } from './Web/hotel3.component';
 import { NosotrosWebComponent } from './Web/nosotros.component';
 import { ContactoWebComponent } from './Web/contacto.component';
+import { GaleriaWebComponent } from './Web/galeria.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 
@@ -85,7 +86,7 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
   declarations: [
     AppComponent, HeaderPagesComponent, HeaderComponent, HabitacionesComponent, TotalSeleccionHabPipe, TotalHabitacionesPipe, TotalHuepedesHabPipe, MonedaFormatoPipe, Hotel1WebComponent,
     CheckOutComponent, ProcessDialogComponent, DetalleOrdenComponent, DisponibilidadDialogComponent, FooterWebComponent, HeaderWebComponent, HomeWebComponent, NosotrosWebComponent,
-    ContactoWebComponent, Hotel2WebComponent, Hotel3WebComponent,
+    ContactoWebComponent, Hotel2WebComponent, Hotel3WebComponent, GaleriaWebComponent,
   ],
   imports: [
     BrowserModule,
@@ -112,11 +113,12 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
     }),
     RouterModule.forRoot([
       { path: "home", component: HomeWebComponent }, 
-      { path: "hotel1", component: Hotel1WebComponent },
-      { path: "hotel2", component: Hotel2WebComponent },
-      { path: "hotel3", component: Hotel3WebComponent },
+      { path: "hotelinka", component: Hotel1WebComponent },
+      { path: "hotelplaza", component: Hotel2WebComponent },
+      { path: "hotelcusco", component: Hotel3WebComponent },
       { path: "nosotros", component: NosotrosWebComponent },
       { path: "contacto", component: ContactoWebComponent },
+      { path: "galeria", component: GaleriaWebComponent },
       { path: "booking/:checkIn/:checkOut/:nroPersonas", component: HabitacionesComponent }, 
       { path: "checkout", component: CheckOutComponent, canActivate: [StoreFirstGuard] },
       { path: "orden-detail", component: DetalleOrdenComponent, canActivate: [StoreFirstGuard] },

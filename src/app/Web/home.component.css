@@ -16,10 +16,6 @@
 .h-map{
   height: 450px;
 }
-.carrousel-navbar{
-  margin-top: -9%;
-  z-index: -1;
-}
 /* estilos de fondos */
 .fondo-servicios {
   background-image: url("../../assets/image/Recursos/fondo-1.jpg");
