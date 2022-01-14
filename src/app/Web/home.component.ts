@@ -11,6 +11,7 @@ export class HomeWebComponent implements OnInit{
     constructor(private translate: TranslateService){
 
     }
+    
     loadAPI: Promise<any>
     setLanguage(lang: string){
         this.translate.use(lang);
