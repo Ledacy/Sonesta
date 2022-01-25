@@ -22,7 +22,10 @@
   background-color: rgba(69, 49, 43, 0.856) !important;
   transition: 0.3s;
 }
-
+.container-h{
+  width: 100%;
+  padding: 0 5%;
+}
 /* .rojo >a:hover{
       color: #faa831 !important;
       font-weight: bold;
