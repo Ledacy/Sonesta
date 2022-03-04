@@ -14,7 +14,7 @@
         <div class="d-flex align-items-center">
           <ul class="nav justify-content-md-end justify-content-center titulo">
             <li class="nav-item">
-              <a class="nav-link fw-bold" aria-current="page" routerLink="/home"  routerLinkActive="activo">Home</a>
+              <a class="nav-link fw-bold" aria-current="page" routerLink="/home"  routerLinkActive="activo">{{ 'menu.inicio' | translate }}</a>
             </li>
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -26,20 +26,32 @@
               </ul>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link fw-bold" routerLink="/hotelinka" routerLinkActive="activo">S.F Inka</a>
+              <a class="nav-link fw-bold" routerLink="/hotelinka" routerLinkActive="activo">{{ 'menu.hotel1' | translate }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold"  routerLink="/hotelplaza" routerLinkActive="activo">S.F Plaza</a>
+              <a class="nav-link fw-bold"  routerLink="/hotelplaza" routerLinkActive="activo">{{ 'menu.hotel2' | translate }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" routerLink="/hotelcusco" routerLinkActive="activo">S.F Cusco</a>
+              <a class="nav-link fw-bold" routerLink="/hotelcusco" routerLinkActive="activo">{{ 'menu.hotel3' | translate }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" routerLink="/galeria" routerLinkActive="activo">Galeria</a>
+              <a class="nav-link fw-bold" routerLink="/galeria" routerLinkActive="activo">{{ 'menu.galeria' | translate }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" routerLink="/contacto" routerLinkActive="activo">Contacto</a>
+              <a class="nav-link fw-bold" routerLink="/contacto" routerLinkActive="activo">{{ 'menu.contacto' | translate }}</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-globe"></i> ES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a [routerLink]="" (click)="setLanguage('es')">Spanish</a></li>
+                <li><a [routerLink]="" (click)="setLanguage('en')">English</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link fw-bold"><i class="fas fa-globe"></i> ES</a>
+            </li> -->
           </ul>
         </div>
       </div>

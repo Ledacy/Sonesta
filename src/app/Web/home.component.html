@@ -29,8 +29,8 @@
       <section class="w-100">
         <div class="grid row d-flex justify-content-center">
           <div class="col-12 p-3 text-center">
-            <h1 class="fw-bold text-dark mb-0 titulo text-marron sombra-titulo">HOTELES SAN FRANCISCO</h1>
-            <h4 class="text-marron texto">Somos una empresa con más de 14 años en el sector hotelero.</h4>
+            <h1 class="fw-bold text-dark mb-0 titulo text-marron sombra-titulo">{{ 'home.title' | translate }}</h1>
+            <h4 class="text-marron texto">{{ 'home.subtitle' | translate }}</h4>
           </div>
           <!-- <div class="col-12 px-5 pb-3 text-center w-100">
             <h1 class="fw-bold">Nuestros Hoteles</h1>
@@ -40,12 +40,10 @@
             <figcaption>
               <div class="text-center">
                 <h2 class="titulo text-center text-marron mb-3 mt-0 lh-1"><a routerLink="/hotelinka"><span
-                      class="hotel">Hotel</span><br>SAN FRANCISCO INKA</a><br><small class="estrella-1"><i
-                      class="fas fa-star mt-2 mb-1"></i><i class="fas fa-star mt-2 mb-1 mx-1"></i><i
+                      class="hotel">{{ 'home.hotel' | translate }}</span><br>{{ 'home.hotel1' | translate }}</a><br><small
+                    class="estrella-1"><i class="fas fa-star mt-2 mb-1"></i><i class="fas fa-star mt-2 mb-1 mx-1"></i><i
                       class="fas fa-star mt-2 mb-1"></i><i class="fas fa-star mt-2 mb-1 ms-1"></i></small></h2>
-                <p class="fw-bold text-justify lh-1 texto" id="primero">El Hotel cuenta con 60 acogedoras habitaciones,
-                  entre:
-                  Simples, Matrimonial, Doble, Triple, Familiar y Suit.</p>
+                <p class="fw-bold text-justify lh-1 texto" id="primero">{{ 'home.hotel1_desc' | translate }}</p>
               </div>
             </figcaption>
           </figure>
@@ -54,11 +52,11 @@
             <figcaption>
               <div class="text-start">
                 <h2 class="titulo text-center text-marron mb-3 mt-0 lh-1"><a routerLink="/hotelplaza"
-                    class="enlace-1"><span class="hotel">Hotel</span><br>SAN FRANCISCO PLAZA</a><br><small
+                    class="enlace-1"><span
+                      class="hotel">{{ 'home.hotel' | translate }}</span><br>{{ 'home.hotel2' | translate }}</a><br><small
                     class="estrella-1"><i class="fas fa-star mt-2 mb-1"></i><i class="fas fa-star mt-2 mb-1 mx-1"></i><i
                       class="fas fa-star mt-2 mb-1"></i></small></h2>
-                <p class="fw-light text-justify lh-1 texto">El hotel cuenta con 30 acogedoras habitaciones,
-                  entre: Simples, Matrimonial, Doble, Triple, Familiar y Suit.</p>
+                <p class="fw-light text-justify lh-1 texto">{{ 'home.hotel2_desc' | translate }}</p>
               </div>
             </figcaption>
           </figure>
@@ -67,11 +65,11 @@
             <figcaption>
               <div class="text-start">
                 <h2 class="titulo text-center text-marron mb-3 mt-0 lh-1"><a routerLink="/hotelcusco"
-                    class="enlace-1"><span class="hotel">Hotel</span><br>SAN FRANCISCO CUSCO</a><br><small
+                    class="enlace-1"><span
+                      class="hotel">{{ 'home.hotel' | translate }}</span><br>{{ 'home.hotel3' | translate }}</a><br><small
                     class="estrella-1"><i class="fas fa-star mt-2 mb-1"></i><i class="fas fa-star mt-2 mb-1 mx-1"></i><i
                       class="fas fa-star mt-2 mb-1"></i></small></h2>
-                <p class="fw-light text-justify lh-1 texto">El hotel cuenta con 37 acogedoras habitaciones, entre:
-                  Simples, Matrimonial, Doble, Triple, Familiar y Suit.</p>
+                <p class="fw-light text-justify lh-1 texto">{{ 'home.hotel3_desc' | translate }}</p>
               </div>
             </figcaption>
           </figure>
@@ -84,10 +82,8 @@
       <div class="col-8 offset-2">
         <div class='box'>
           <div class='box-inner text-center'>
-            <h4 class="card-title titulo text-marron">CONOCENOS</h4>
-            <p class="card-text text-start texto lh-sm">A la actualidad la cadena San Francisco comprende 3 hoteles
-              dentro de la ciudad del cusco: San Francisco Plaza y San Francisco Cusco, ambas de categoría 3 estrellas y
-              nuestro nuevo Hotel San Francisco Inka; este ultimo de categoría 4 estrellas. Misma que año tras año recibe visitantes de todo el Perú y a nivel mundial, nuestros hoteles se destacan por su ubicación, 2 de los hoteles cerca al centro histórico y uno cerca al aeropuerto, lo que hace que nuestro huésped tenga la mejor opción. </p>
+            <h4 class="card-title titulo text-marron">{{ 'conocenos' | translate }}</h4>
+            <p class="card-text text-start texto lh-sm">{{ 'home.conocenos_desc' | translate }}</p>
           </div>
         </div>
       </div>
@@ -108,8 +104,8 @@
           </div>
           <div class="face face2">
             <div class="content">
-              <h3 class="fw-bold titulo text-marron">Mision</h3>
-              <p class="texto lh-sm fw-bold">Brindar una experiencia única a todos nuestros clientes.</p>
+              <h3 class="fw-bold titulo text-marron">{{ 'home.mision' | translate }}</h3>
+              <p class="texto lh-sm fw-bold">{{ 'home.mision_desc' | translate }}</p>
             </div>
           </div>
         </div>
@@ -123,8 +119,8 @@
           </div>
           <div class="face face2">
             <div class="content">
-              <h3 class="fw-bold titulo text-marron">Vision</h3>
-              <p class="texto lh-sm fw-bold">Ser una de las cadenas hoteleras mejor reconocidas a nivel nacional.</p>
+              <h3 class="fw-bold titulo text-marron">{{ 'home.mision' | translate }}</h3>
+              <p class="texto lh-sm fw-bold">{{ 'home.mision_desc' | translate }}</p>
             </div>
           </div>
         </div>
@@ -138,8 +134,8 @@
           </div>
           <div class="face face2">
             <div class="content">
-              <h3 class="fw-bold titulo text-marron">Valores</h3>
-              <p class="texto lh-sm fw-bold">Respeto, Empatía, Responsabilidad, Honestidad y Solidaridad</p>
+              <h3 class="fw-bold titulo text-marron">{{ 'home.valores' | translate }}</h3>
+              <p class="texto lh-sm fw-bold">{{ 'home.valores_desc' | translate }}</p>
             </div>
           </div>
         </div>
@@ -147,7 +143,7 @@
     </div>
   </div>
   <div class="w-100 text-center">
-    <h1 class="display-2 titulo text-marron mb-0 mt-3">VIVE UNA NUEVA EXPERIENCIA</h1>
+    <h1 class="display-2 titulo text-marron mb-0 mt-3">{{ 'home.title2' | translate }}</h1>
     <div class="galeria">
       <div class="wrapper imagenes">
         <img src="../../assets/image/Galeria/foto-1.jpg" class="imagen" alt="">
@@ -169,24 +165,14 @@
     </div>
     <div class="col-md-6 col-12 order-md-2 order-2 py-md-0 py-5">
       <div class="container text-start">
-        <h3 class="fw-bold titulo text-marron"><u>NUESTROS HOTELES</u></h3>
-        <p class="fw-normal text-justify texto lh-sm">Iniciamos con nuestro primer Hotel San Francisco Plaza ***, misma
-          que abrió sus puertas al público en el año 2010, destinado a los viajeros tanto nacionales como extranjeros.
-          Poco a poco fuimos creciendo, siendo en el año 2017 que aperturamos el Hotel San Francisco Cusco ***,
-          destinado a los clientes corporativos, personas de negocios y también a nuestros visitantes extranjeros que
-          buscan la modernidad y elegancia. Actualmente damos a conocer nuestro nuevo Hotel San Francisco Inka ****
-          siendo este último de una categoría mayor, cerca al centro histórico y demás atractivos, cuenta con una
-          arquitectura colonial y moderna.</p>
+        <h3 class="fw-bold titulo text-marron"><u>{{ 'home.hoteles' | translate }}</u></h3>
+        <p class="fw-normal text-justify texto lh-sm">{{ 'home.hoteles_desc' | translate }}</p>
       </div>
     </div>
     <div class="col-md-6 col-12 order-md-3 order-4 py-5">
       <div class="container text-start py-0">
-        <h3 class="fw-bold titulo text-marron"><u>NUESTRO PERSONAL</u></h3>
-        <p class="fw-normal text-justify texto lh-sm">El personal que labora en nuestra cadena de hoteles, brinda una
-          atención única y personalizada a todos nuestros huéspedes, desde su ingreso hasta su salida, brindando todo
-          tipo de información, desde lugares de interés, actividades y eventos, dispuestos a ayudar en cualquier
-          momento. Así mismo reciben constantemente capacitaciones para estar preparados ante cualquier situación, misma
-          que brinda seguridad a nuestros clientes y hace que su estadía sea aún más placentera</p>
+        <h3 class="fw-bold titulo text-marron"><u>{{ 'home.personal' | translate }}</u></h3>
+        <p class="fw-normal text-justify texto lh-sm">{{ 'home.personal_desc' | translate }}</p>
       </div>
     </div>
     <div class="col-md-6 col-12 oreder-md-4 order-3 px-0">
@@ -197,39 +183,36 @@
     <div class="container bg-marron2 py-5">
       <div class="row d-flex align-items-center">
         <div class="col-md-4 col-12 py-5 px-lg-5 px-1 text-start text-marron">
-          <h4 class="mb-0 text-center fw-bold titulo text-humo">Nuestros Servicios</h4>
-          <p class="mt-1 ps-2 lh-1 text-justify texto text-white fw-bold">Todas nuestras reservas tienen incluido los
-            siguientes servicios</p>
+          <h4 class="mb-0 text-center fw-bold titulo text-humo">{{ 'home.servicios' | translate }}</h4>
+          <p class="mt-1 ps-2 lh-1 text-justify texto text-white fw-bold">{{ 'home.servicios_desc' | translate }}</p>
         </div>
         <div class="col-md-8 col-12">
           <div class="row text-white texto d-flex justify-content-evenly">
             <div class="col-md-3 col-6 py-3 px-2 text-center lh-sm">
               <img src="../../assets/image/Recursos/ico-9.png" class="img-fluid mb-2" alt="">
-              <h5 class="mb-0 fw-bold titulo text-start">Transporte</h5>
-              <p class="mt-0 lh-1 text-start"><small>Recojo de ida o vuelta del aeropuerto y dentro de la
-                  ciudad</small>
+              <h5 class="mb-0 fw-bold titulo text-start">{{ 'transporte' | translate }}</h5>
+              <p class="mt-0 lh-1 text-start"><small>{{ 'transporte_desc' | translate }}</small>
               </p>
             </div>
             <div class="col-md-3 col-6 py-3 px-2 text-center lh-sm">
               <img src="../../assets/image/Recursos/ico-1.png" class="img-fluid mb-2" alt="">
-              <h5 class="mb-0 fw-bold titulo text-start">Bar</h5>
-              <p class="mt-0 lh-sm text-start"><small>Después de un buen paseo, viene un buen cocktail.</small></p>
+              <h5 class="mb-0 fw-bold titulo text-start">{{ 'bar' | translate }}</h5>
+              <p class="mt-0 lh-sm text-start"><small>{{ 'bar_desc' | translate }}</small></p>
             </div>
             <div class="col-md-3 col-6 py-3 px-2 text-center lh-sm">
               <img src="../../assets/image/Recursos/ico-4.png" class="img-fluid mb-2" alt="">
-              <h5 class="mb-0 fw-bold titulo">Wi-Fi</h5>
-              <p class="mt-0 lh-1 text-start"><small>Conexión de banda ancha en todo el establecimiento.</small></p>
+              <h5 class="mb-0 fw-bold titulo">{{ 'wifi' | translate }}</h5>
+              <p class="mt-0 lh-1 text-start"><small>{{ 'wifi_desc' | translate }}</small></p>
             </div>
             <div class="col-md-3 col-6 py-3 px-2 text-center lh-sm">
               <img src="../../assets/image/Recursos/ico-8.png" class="img-fluid mb-2" alt="">
-              <h5 class="mb-0 fw-bold titulo text-start">Telefono</h5>
-              <p class="mt-0 lh-1 text-start"><small>Nuestros números están disponibles las 24 hrs</small></p>
+              <h5 class="mb-0 fw-bold titulo text-start">{{ 'telefono' | translate }}</h5>
+              <p class="mt-0 lh-1 text-start"><small>{{ 'telefono_desc' | translate }}</small></p>
             </div>
             <div class="col-md-3 col-6 py-3 px-2 text-center lh-sm">
               <img src="../../assets/image/Recursos/ico-5.png" class="img-fluid mb-2" alt="">
-              <h5 class="mb-0 fw-bold titulo text-start">Informacion</h5>
-              <p class="mt-0 lh-1 text-start"><small>Te brindamos toda la información sobre destinos
-                  turísticos.</small>
+              <h5 class="mb-0 fw-bold titulo text-start">{{ 'informacion' | translate }}</h5>
+              <p class="mt-0 lh-1 text-start"><small>{{ 'informacion_desc' | translate }}</small>
               </p>
             </div>
             <!-- <div class="col-3 py-3 px-1 text-start lh-sm">
@@ -239,15 +222,13 @@
             </div>             -->
             <div class="col-md-3 col-6 py-3 px-2 text-center lh-sm">
               <img src="../../assets/image/Recursos/ico-6.png" class="img-fluid mb-2" alt="">
-              <h5 class="mb-0 fw-bold titulo text-start">Equipaje</h5>
-              <p class="mt-0 lh-1 text-start"><small>Custodiamos tu equipaje mientras realizas los últimos recorridos
-                  por la ciudad.</small></p>
+              <h5 class="mb-0 fw-bold titulo text-start">{{ 'equipaje' | translate }}</h5>
+              <p class="mt-0 lh-1 text-start"><small>{{ 'equipaje_desc' | translate }}</small></p>
             </div>
             <div class="col-md-3 col-6 py-3 px-2 text-center lh-sm">
               <img src="../../assets/image/Recursos/ico-2.png" class="img-fluid mb-2" alt="">
-              <h5 class="mb-0 fw-bold titulo text-start">Restaurante</h5>
-              <p class="mt-0 lh-1 text-start"><small>Disfrute de un delicioso desayuno desde tempranas horas de la
-                  mañana.</small></p>
+              <h5 class="mb-0 fw-bold titulo text-start">{{ 'restaurant' | translate }}</h5>
+              <p class="mt-0 lh-1 text-start"><small>{{ 'restaurant_desc' | translate }}</small></p>
             </div>
           </div>
         </div>
@@ -257,15 +238,13 @@
 </section>
 <article class="w-100">
   <div class="container-fluid mt-5">
-    <h1 class="text-center fw-bold text-marron titulo">¡Mira dentro!</h1>
+    <h1 class="text-center fw-bold text-marron titulo">{{ 'home.galeria' | translate }}</h1>
     <div class="row d-flex align-items-center mt-5">
       <div class="col-md-5 col-12 text-center">
         <img src="../../assets/image/Recursos/Sonesta.png" class="img-fluid" width="40%" alt="">
         <div class="container px-5">
-          <h3 class="text-marron titulo">HOTEL SAN FRANCISCO</h3>
-          <p class="text-justify fw-light lh-1 texto">Somos una cadena hotelera peruana y cusqueña, enfocada en
-            brindar
-            a nuestros huéspedes una experiencia diferente y llena de momentos inolvidables.</p>
+          <h3 class="text-marron titulo">{{ 'home.name' | translate }}</h3>
+          <p class="text-justify fw-light lh-1 texto">{{ 'home.hotel_desc' | translate }}</p>
         </div>
       </div>
       <div class="col-md-7 col-12">
@@ -292,28 +271,28 @@
         <img src="../../assets/image/Recursos/logo-forn.png" alt="rocket_contact" />
       </div>
       <form method="post">
-        <h3 class="text-marron titulo">Contactanos</h3>
+        <h3 class="text-marron titulo">{{ 'home.contacto' | translate }}</h3>
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" name="txtName" class="form-control formulario texto" placeholder="Your Name *"
+              <input type="text" name="txtName" class="form-control formulario texto" placeholder="{{ 'home.nombre' | translate }}"
                 value="" />
             </div>
             <div class="form-group my-2">
-              <input type="text" name="txtEmail" class="form-control formulario texto" placeholder="Your Email *"
+              <input type="text" name="txtEmail" class="form-control formulario texto" placeholder="{{ 'home.email' | translate }}"
                 value="" />
             </div>
             <div class="form-group">
-              <input type="text" name="txtPhone" class="form-control formulario texto" placeholder="Your Phone Number *"
+              <input type="text" name="txtPhone" class="form-control formulario texto" placeholder="{{ 'home.telefono' | translate }}"
                 value="" />
             </div>
             <div class="form-group my-2 text-start">
-              <input type="submit" name="btnSubmit" class="btnContact texto" value="Send Message" />
+              <input type="submit" name="btnSubmit" class="btnContact texto" value="{{ 'home.enviar' | translate }}" />
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <textarea name="txtMsg" class="form-control formulario texto" placeholder="Your Message *"
+              <textarea name="txtMsg" class="form-control formulario texto" placeholder="{{ 'home.mensaje' | translate }}"
                 style="width: 100%; height: 175px"></textarea>
             </div>
           </div>
