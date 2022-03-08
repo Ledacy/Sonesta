@@ -26,6 +26,11 @@
   width: 100%;
   padding: 0 5%;
 }
+.drop{
+  text-align: center;
+  margin: 0 !important;
+  padding: auto;
+}
 /* .rojo >a:hover{
       color: #faa831 !important;
       font-weight: bold;
