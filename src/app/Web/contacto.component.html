@@ -32,29 +32,29 @@
             </div>
             <form class="contact100-form validate-form">
                 <span class="contact100-form-title titulo">
-                    Contactanos
+                  {{ 'contact.titulo' | translate }}
                 </span>
                 <div class="wrap-input100 validate-input" data-validate="Name is required">
-                    <input class="input100 texto" type="text" name="name" placeholder="Name">
+                    <input class="input100 texto" type="text" name="name" placeholder="{{ 'contact.name' | translate }}">
                     <span class="focus-input100"></span>
                     <span class="symbol-input100">
                         <i class="fa fa-user" aria-hidden="true"></i>
                     </span>
                 </div>
                 <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                    <input class="input100 texto" type="text" name="email" placeholder="Email">
+                    <input class="input100 texto" type="text" name="email" placeholder="{{ 'contact.mail' | translate }}">
                     <span class="focus-input100"></span>
                     <span class="symbol-input100">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                     </span>
                 </div>
                 <div class="wrap-input100 validate-input" data-validate="Message is required">
-                    <textarea class="input100 texto" name="message" placeholder="Message"></textarea>
+                    <textarea class="input100 texto" name="message" placeholder="{{ 'contact.message' | translate }}"></textarea>
                     <span class="focus-input100"></span>
                 </div>
                 <div class="container-contact100-form-btn">
                     <button class="contact100-form-btn texto">
-                        Send
+                      {{ 'contact.boton' | translate }}
                     </button>
                 </div>
             </form>

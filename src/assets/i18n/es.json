@@ -39,6 +39,14 @@
     "home.enviar":"Enviar Mensaje",
     "home.mensaje":"Su Mensaje *",
 
+    "galeria.title":"DISFRUTA DE NUESTRA GALERÍA",
+
+    "contact.titulo":"Contactanos",
+    "contact.name":"Nombre",
+    "contact.mail":"Correo Electronico",
+    "contact.message":"Mensaje",
+    "contact.boton":"Enviar",
+
     "footer.title":"San Francisco Hoteles",
     "footer.inka":"San Francisco Inka",
     "footer.plaza":"San Francisco Plaza",
@@ -143,6 +151,7 @@
     "cusco.triple_desc":"Habitación estándar con 3 camas de 2 plazas",
     "cusco.doble":"Habitación Doble",
     "cusco.doble_desc":"Habitación estándar con 2 camas de 2 plazcusco",
+    "cusco.restaurant":"Nuestro Restaurante",
 
 
     "habitaciones.intro": "NUESTRAS HABITACIONES",
