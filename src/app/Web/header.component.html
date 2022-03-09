@@ -1,6 +1,6 @@
 <header class="container-fluid px-0 py-0">
   <nav class="navbar navbar-expand-md" style="z-index: 1;">
-    <div class="container-fluid mx-md-5 mx-0 py-n1 bg-blanco">
+    <div class="container-fluid mx-lg-5 mx-md-4 mx-0 py-n1 bg-blanco">
       <a class="navbar-brand me-2" href=#>
         <img src="../../assets/image/Recursos/logo-1.png" class="img-fluid" width="80%" alt="">
         <!-- <i class="fab fa-affiliatetheme fs-2"></i> -->
@@ -41,15 +41,12 @@
               <a class="nav-link fw-bold" routerLink="/contacto" routerLinkActive="activo">{{ 'menu.contacto' | translate }}</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fas fa-globe"></i> ES
-              </a>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><small>{{ 'menu.idioma' | translate }}</small></a>
               <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
                 <li><a [routerLink]="" (click)="setLanguage('es')">Spanish</a></li>
                 <li><a [routerLink]="" (click)="setLanguage('en')">English</a></li>
               </ul>
             </li>
-
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fas fa-globe"></i> ES

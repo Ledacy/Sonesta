@@ -22,15 +22,29 @@
   background-color: rgba(69, 49, 43, 0.856) !important;
   transition: 0.3s;
 }
-.container-h{
+
+.container-h {
   width: 100%;
   padding: 0 5%;
 }
-.drop{
+
+.drop {
   text-align: center;
   margin: 0 !important;
+  min-width: 62px;
   padding: auto;
+  background-color: rgba(255, 255, 255, 0.452);
 }
+.drop li:hover{
+  background-color: rgba(252, 243, 234, 0.467);
+}
+
+.drop li a {
+  font-size: 12px;
+  color: #512206;
+  text-decoration: none;
+}
+
 /* .rojo >a:hover{
       color: #faa831 !important;
       font-weight: bold;
